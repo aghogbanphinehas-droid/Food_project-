@@ -4,22 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">  
+
 </head>
 <body>
   <section>
    
     <nav> 
-        <a href="home">Ade Store</a>
+        <a href="#home">Ade Store</a>
         <ul>
-            <li> <a href="menu">Menu</a></li>
-            <li> <a href="about-us">About us</a></li>
-            <li> <a href="contact">Contact</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
         <h1>Ade's Taste & Spice</h1>
         <p>Explore our diverse menu and discover your new favorite dish today!</p>
-        <img src="img-file/nigeria-spanish-112622-2.jpeg" alt="food image" width="600" height="400">
+        <img src="img-file/nigeria-spanish-112622-2.jpeg" alt="food image" width="500" height="400">
+
+ <!-- Menu section -->
+        <h2 id="menu">Menu</h2>
+        <ul>
+            <li>Jollof Rice - A flavorful one-pot dish made with rice, tomatoes, and spices.</li> <img src="https://allnigerianfoods.com/wp-content/uploads/jollof-rice.jpg" alt="Jollof Rice" width="500" height="400">
+            <li>Pounded Yam and Egusi Soup - A classic combination of pounded yam served with a rich melon seed soup.</li><img src="https://wigmoretrading.com/wp-content/uploads/2024/08/iStock-1398351215-1.jpg" alt="pounded yam and egusi soup" width="500" height="400">
+            <li>Suya - Spicy grilled meat skewers, perfect for a quick snack or appetizer.</li> <img src="https://flawlessfood.co.uk/wp-content/uploads/2023/03/Suya-Beef-Kebabs-22.jpg" alt="suya image" width="400" height="400">
+            <li>Akara - Deep-fried bean cakes, crispy on the outside and soft on the inside.</li> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsB7qqMLecJHm6ItnQLI6nPmDV5HH8d4NXzg&s" alt="akara image" width="400" height="400">
+            <li>Moi Moi - Steamed bean pudding made with black-eyed peas and spices.</li> <img src="https://d34vm3j4h7f97z.cloudfront.net/optimized/4X/1/a/e/1ae002591a4166b2466e196e336747f017a66378_2_500x500.jpeg" alt="moimoi image" width="400" height="400">
+           
+
+        <!-- About us section -->
+        <h2 id="about-us">About Us</h2>
+        <p>At Ade's Taste & Spice, we are passionate about bringing you the authentic flavors of Nigerian cuisine. Our mission is to provide a delightful dining experience that celebrates the rich culinary heritage of Nigeria. From traditional dishes to modern twists, we strive to offer something for everyone. We are committed to using only the freshest ingredients and traditional cooking methods to ensure an unforgettable experience. We have our local branches in Lagos, Abuja, and Port Harcourt. Our team of skilled chefs brings a wealth of experience and creativity to every dish we serve. You can find us in the heart of Nigeria's vibrant cities, serving up delicious meals that bring people together. It's a place where tradition meets innovation, and every meal tells a story. We are proud to serve the community with our delicious and authentic dishes. Our goal is to make every meal a memorable experience. This is our story. We are dedicated to preserving the essence of Nigerian culinary traditions while introducing exciting new flavors. Quick, easy, and delicious meals for busy people. We are committed to providing a delightful dining experience that celebrates the rich culinary heritage of Nigeria. Eat delicious meals in a welcoming environment. We're proud to be part of the Nigerian culinary landscape.</p> 
+
+       
+        <!-- Contact section -->
+        <h2 id="contact">Contact Us</h2>
+        <p>If you have any questions, feedback, or would like to make a reservation, please don't hesitate to reach out to us. You can contact us via email at info@ades-taste-spice.com</p>
+        <form action=""> </form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
     </main>
    
   </section>  
